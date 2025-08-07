@@ -1,3 +1,1 @@
-initial git data
-
-ok its error
+this is the comd to write in file
