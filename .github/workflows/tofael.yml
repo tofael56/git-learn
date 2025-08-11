@@ -3,10 +3,10 @@ name: Print text file
 on:
    push:
         branches:
-            - main
+            - master
    pull_request:
         branches:
-            - main
+            - master
 jobs:
         print_text_file:
              runs-on: ubuntu-latest
