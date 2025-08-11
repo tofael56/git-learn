@@ -1,0 +1,19 @@
+name: Print text file
+
+on:
+   push:
+        branches:
+            - main
+   pull_request:
+        branches:
+            - main
+jobs:
+        print_text_file:
+             runs-on: ubuntu-latest
+             steps:
+                - name: Got Checkout repository
+                  uses: actions/checkout@v2
+                - name: reade the text file
+                  run: |
+                    ls -l
+                    cat hello.txt
